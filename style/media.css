@@ -1,0 +1,331 @@
+@media screen and (max-width: 1824px) {
+    .slider-inner{
+        flex-direction: column;
+    }
+    .slider-info{
+        width: 100%;
+        margin-bottom: 160px;
+    }
+    .slider-cards{
+        position: relative;
+        width: 100%;
+        order: 2;
+    }
+    .swiper-rel{
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-right: 0;
+        width: 1280px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .arrows{
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .swiper{
+        width: 100%;
+    }
+    .padding{
+        /* width: 300px; */
+    }
+    .padding img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1666px) {
+   .video-block{
+       flex-direction: column;
+   }
+   .video-big{
+       width: 100%;
+       height: 100%;
+   }
+   .video-big-img{
+       width: 100%;
+       height: auto;
+   }
+   .video-many{
+       width: 100%;
+   }
+}
+@media screen and (max-width: 1200px) {
+    .universal-text{
+        width: 100%;
+    }    
+ }
+@media screen and (max-width: 1177px) {
+    .form-items{
+        flex-direction: column;
+    }
+    .form-item{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+ }
+@media screen and (max-width: 1072px) {
+   .header-link,
+   .header-link-button{
+       font-size: 17px;
+   }
+   .video-block{
+       margin-bottom: 100px;
+   }
+   .comments{
+       padding-top: 100px;
+       margin-bottom: 100px;
+   }
+}
+@media screen and (max-width: 986px) {
+     .header-inner{
+         padding: 30px 0;
+     }
+    .header-ul{
+        display: none;
+    }
+    .main{
+        background-position: 100% 130px;
+    }
+    .main-inner{
+        padding-top: 323px;
+    }
+    .slider-inner{
+        padding-top: 118px;
+    }
+    .video-big-info{
+        bottom: 23px;
+        left: 28px;
+    }
+}
+@media screen and (max-width: 870px) {
+    .video-img-play img{
+        width: 70px;
+    }
+    .video-big-info-title{
+        line-height: 31px;
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+    .video-big-info-time{
+        font-size: 18px;
+    }
+    .forma-subtitle{
+        font-size: 45px;
+    }
+    .footer-link{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slider-info{
+        margin-bottom: 100px;
+    }
+    .slider-inner{
+        margin-bottom: 100px;
+    }
+    .universal-text{
+        text-align: justify;
+    }
+    .universal-title{
+        margin-bottom: 40px;
+    }
+    .footer-inner{
+        align-items: flex-start;
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+    .footer-link{
+        margin: 0 0 10px 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 652px) {
+    .forma-subtitle{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .forma-title{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 606px) {
+    .video-big-info-title{
+        font-size: 18px;
+    }
+    .many-img{
+        width: 153px;
+        height: 83px;
+    }
+    .many-img img{
+        width: 153px;
+        height: 83px;
+    }
+    .many-item{
+        padding-right: 10px;
+    }
+    .slider-inner{
+        margin-bottom: 70px;
+    }
+}
+@media screen and (max-width: 582px) {
+    .universal-title{
+        font-size: 30px;
+    }
+    .universal-title{
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 549px) {
+    .main-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .video-big-info{
+        display: none;
+    }
+    .video-img-play img{
+        width: 50px;
+    }
+    .many-name{
+        font-size: 20px;
+    }
+    .many-time{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 521px) {
+    .travel-img{
+        display: flex;
+        justify-content: center;
+    }    
+    .travel-img img{
+        width: 400px;
+        height: auto;
+        transform: translate(-15px);
+    }    
+    .travel-img-absolute{
+        z-index: 100;
+        left: 69px;
+        font-size: 20px;
+    }
+    .travel{
+        padding-bottom: 0;
+    }
+    .travel-arrows{
+        bottom: 0;
+        z-index: 1000;
+    }
+}
+@media screen and (max-width: 512px) {
+    .main{
+        background-position: 60% 130px;
+    }
+    .slider-inner{
+        padding-top: 25px;
+    }
+    .main-title br{
+        display: none;
+    }
+    .form{
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+@media screen and (max-width: 467px) {
+    .slider-title{
+        font-size: 35px;
+    }
+    .main{
+        background-position: 60% -70px;
+    }
+    .main-inner{
+        padding-bottom: 170px;
+    }
+}
+@media screen and (max-width: 447px) {
+    .travel-img img{
+        width: 300px;
+    }  
+    .travel-img-absolute{
+        z-index: 100;
+        left: 110px;
+        font-size: 16px;
+    }
+    .travel-width{
+        height: 400px;
+    }
+    .forma-subtitle{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .padding{
+        width: 300px;
+    }
+    .arrows{
+        bottom: 35px;
+    }
+    .main-title{
+        font-size: 30px;
+        margin-bottom: 10px;
+        line-height: 50px;
+    }
+    .main-text{
+        margin-bottom: 40px;
+    }
+    .many-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .many-img{
+        width: 100%;
+        height: auto;
+    }
+    .many-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width: 362px) {
+    .universal-title{
+        font-size: 25px;
+    }
+    .main-text{
+        font-size: 16px;
+    }
+    .coments-arrow-right,
+    .coments-arrow-left{
+        display: none;
+    }
+}
+@media screen and (max-width: 340px) {
+    .padding{
+        width: 250px;
+    }
+    .absolute{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stars-img img{
+        width: auto;
+        margin-bottom: 5px;
+    }
+    .travel-img img{
+        width: 250px;
+    }  
+    .travel-img-absolute{
+        z-index: 100;
+        left: 130px;
+    }
+    .footer-social-links{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .social-link{
+        margin: 0;
+    }
+}

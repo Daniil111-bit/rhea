@@ -1,0 +1,61 @@
+.travel{
+    position: relative;
+    padding-bottom: 185px;
+    overflow: hidden;
+}
+.travel-width{
+    width: 100%;
+    height: 500px;
+}
+.travel-rel{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-1250px);
+    width: 2500px;
+}
+.travel-slide-block{
+    padding-top: 70px;
+    transform: translateX(15px);
+}
+.travel-slide{
+    transition: .3s;
+}
+.travel-slide.swiper-slide-active{
+    transform: translateY(-70px);
+}
+.travel-img-absolute{
+    position: absolute;
+    bottom: 38px;
+    left: 41px;
+    color: #fff;
+    font-size: 28px;
+    font-family: "Nunito-Regular";
+
+}
+
+.travel-arrows{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -96px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 142px;
+}
+.travel-arrow-left{
+    background: url(../img/arrow-active.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39px;
+    height: 28px;
+    cursor: pointer;
+}
+.travel-arrow-right{
+    background: url(../img/arrow-active.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39px;
+    height: 28px; 
+    transform: rotate(-180deg);
+    cursor: pointer;
+}

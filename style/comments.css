@@ -1,0 +1,91 @@
+/* comments */
+
+.comments{
+    margin-bottom: 230px;
+    padding-top: 246px;
+}
+.comments-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comments-slider{
+    position: relative;
+}
+.universal-text-width{
+    width: 1070px;
+}
+.comments-wrapper{
+    position: relative;
+    width: 547px;
+}
+.comments-slide{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comments-slide-img{
+    margin-bottom: 42px;
+}
+.comments-slide-title{
+    font-size: 24px;
+    color: #2b323a;
+    font-family: "NunitoSans-Bold";
+    line-height: 45.01px;
+}
+.comments-slide-subtitle{
+    font-size: 20px;
+    color: #2b323a;
+    font-family: "Nunito-Regular";
+    line-height: 45.01px;
+    margin-bottom: 45px;
+}
+.comments-spans{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+.comments-spans span{
+    width: 38px;
+    height: 3px;
+    background-color: #d4daf5;
+    display: block;
+    margin: 0 8.5px;
+    cursor: pointer;
+}
+.comments-spans span.active{
+    background-color: #3984f3;
+}
+.comments-arrows{
+    position: absolute;
+    width: 549px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+.coments-arrow-right{
+    transform: rotate(-180deg);
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    right: 0;
+    width: 39px;
+    height: 28px;
+    background: url(../img/arrow-active.png);
+    cursor: pointer;
+}
+.coments-arrow-left{
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 0;
+
+    width: 39px;
+    height: 28px;
+    background: url(../img/arrow-active.png);
+    cursor: pointer;
+}
